@@ -1,0 +1,24 @@
+edges:
+- partner_name: JAMF (own)
+  partner: jamf
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.jamf.com/details/zip-security
+  mirror_of: jamf/integrations/jamf-integration-edges.yml
+  apps:
+  - Zip Security
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: Integration
+generated: '2026-10-20'
+method: searched
+source:
+- jamf/integrations/jamf-integration-edges.yml
+checked:
+- jamf/integrations/jamf-integration-edges.yml
